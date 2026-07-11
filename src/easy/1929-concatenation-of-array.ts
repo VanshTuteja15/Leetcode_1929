@@ -7,9 +7,13 @@
 function getConcatenation(nums: number[]): number[] {
   const ans: number[] = [];
 
+  for (let i = 0; i < nums.length; i++) {
+    ans.push(nums[i]);
+  }
+
+  for (let i = 0; i < nums.length; i++) {
+    ans.push(nums[i]);
+  }
+
   return ans;
 }
-
-// Test Cases
-console.log(getConcatenation([1, 2, 1]));
-console.log(getConcatenation([1, 3, 2, 1]));
